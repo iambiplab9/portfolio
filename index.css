@@ -1,0 +1,205 @@
+body {
+  background-color: rgb(199, 199, 207);
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #515256;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.project{
+  
+  padding: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+  background-color: #f4f7fa;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 155px;
+  margin-top: 29px;
+  padding-left: 31px;
+  padding-right: 28px;
+
+}
+
+header h1 {
+  margin: 0;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #515256;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.container1{
+  margin: 0;
+  display: flex;
+  
+}
+.html{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.css{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.java{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.React{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.github{
+  display: flex;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* contact me from */
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin-left: 500px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-bottom: 12px;
+}
+
+.fa-html5{
+  font-size: 40px;
+  color:#ff0000;
+  
+}
+.fa-css3-alt{
+  font-size: 40px;
+  color:rgb(88, 88, 219);
+}
+.fa-react{
+  font-size: 40px;
+  color: rgb(133, 5, 253);
+}
+.fa-js{
+  font-size: 40px;
+  color: rgb(243, 243, 9);
+}
+.fa-github{
+  font-size:40px ;
+}
+
+/* footer  */
+
+
+.portfolio-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info,
+.social-links,
+.navigation-links {
+  margin-bottom: 10px;
+}
+
+.social-links a,
+.navigation-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 14px;
+}
